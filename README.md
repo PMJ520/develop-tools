@@ -4,8 +4,8 @@
 
 master───┐
          ├─README.md #说明
-         ├─develop──┐
-                    └─tools─┐
-                            ├─develop_tools-1.0.jar  #工具架包
-                            └─develop_tools-1.0.README.md  #工具说明
+         ├─develop──┐
+                    └─tools─┐
+                            ├─develop_tools-1.0.jar  #工具架包
+                            └─develop_tools-1.0.README.md  #工具说明
                             
