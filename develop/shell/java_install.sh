@@ -348,7 +348,7 @@ function installMySQLBefor(){
 			fi;
 		fi;
 	if [[ "$IF_install_MySQL" = "1" ]]; then
-		read -rp "Please enter the install directory(default:1234567890): " -e -i "1234567890" DB_Root_Password
+		read -rp "Please enter the root password (default:1234567890): " -e -i "1234567890" DB_Root_Password
 	fi;
 	
 	return $IF_install_MySQL
