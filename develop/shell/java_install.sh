@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://github.com/PMJ520/tools_public/tree/master/vpn/openvpn
+# https://github.com/PMJ520/develop_tools/blob/master/develop/shell/java_install.sh
 # 
 
 
