@@ -58,7 +58,7 @@ function installQuestions () {
 			#return "\033[37m install MySQL Successful \033[0m \033[32m password=$DB_Root_Password ; port=$mysql_port \033[0m"
 			MySQL_install_result=`netstat  -anp  |grep  $mysql_port`;
 			if [[ $MySQL_install_result =~ "$mysql_port" ]];then
-				result_logs=$result_logs"\033[32m MySQL: MySQL install Successful……\nMySQL directory: $MYSQL_directory\nMySQL version: 5.7.25\n $MYSQL_directory\nMySQL rootPassword: $DB_Root_Password  \033[0m"
+				result_logs=$result_logs"\033[32m MySQL: MySQL install Successful……\nMySQL directory: $MYSQL_directory\nMySQL version: 5.7.25 \nMySQL rootPassword: $DB_Root_Password  \033[0m"
 			else
 				result_logs=$result_logs"\033[33m MySQL: MySQL install faild;Please try 'service mysql start' startup……\nMySQL directory: $MYSQL_directory\nMySQL version: 5.7.25\nMySQL rootPassword: $DB_Root_Password \033[0m"
 			fi
